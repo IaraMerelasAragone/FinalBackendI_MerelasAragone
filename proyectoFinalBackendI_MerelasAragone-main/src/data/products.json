@@ -1,0 +1,167 @@
+[
+  {
+    "id": 1,
+    "title": "Levadizo Zed",
+    "description": "El motor para levadizos",
+    "code": "A123",
+    "price": 60000,
+    "status": true,
+    "stock": 15,
+    "category": "automatismos",
+    "thumbnails": "https://dummyimage.com/400x200/###/fff"
+  },
+  {
+    "id": 2,
+    "title": "Corredizo DKC400",
+    "description": "Estética en corredizos",
+    "code": "B456",
+    "price": 300000,
+    "status": true,
+    "stock": 10,
+    "category": "automatismos",
+    "thumbnails": "https://dummyimage.com/400x200/###/fff"
+  },
+  {
+    "id": 3,
+    "title": "Batiene BILL30",
+    "description": "Simpleza y elegancia",
+    "code": "C789",
+    "price": 350000,
+    "status": true,
+    "stock": 10,
+    "category": "automatismos",
+    "thumbnails": "https://dummyimage.com/400x200/###/fff"
+  },
+  {
+    "id": 4,
+    "title": "BOB 30",
+    "description": "Estética superior",
+    "code": "D123",
+    "price": 250000,
+    "status": true,
+    "stock": 10,
+    "category": "portones",
+    "thumbnails": "https://dummyimage.com/400x200/###/fff"
+  },
+  {
+    "id": 5,
+    "title": "BULL 15M-20M",
+    "description": "Línea pesada italiana",
+    "code": "E456",
+    "price": 350000,
+    "status": true,
+    "stock": 10,
+    "category": "portones",
+    "thumbnails": "https://dummyimage.com/400x200/###/fff"
+  },
+  {
+    "id": 6,
+    "title": "BISON 25T",
+    "description": "Línea super pesada italiana",
+    "code": "F789",
+    "price": 300000,
+    "status": true,
+    "stock": 10,
+    "category": "portones",
+    "thumbnails": "https://dummyimage.com/400x200/###/fff"
+  },
+  {
+    "id": 7,
+    "title": "Control acceso",
+    "description": "A teclado y proximidad",
+    "code": "G123",
+    "price": 60000,
+    "status": true,
+    "stock": 10,
+    "category": "puertas",
+    "thumbnails": "https://dummyimage.com/400x200/###/fff"
+  },
+  {
+    "id": 8,
+    "title": "Cerradura Magnética",
+    "description": " ",
+    "code": "H456",
+    "price": 95000,
+    "status": true,
+    "stock": 10,
+    "category": "puertas",
+    "thumbnails": "https://dummyimage.com/400x200/###/fff"
+  },
+  {
+    "id": 9,
+    "title": "Proyect Single",
+    "description": "Cerradura digital",
+    "code": "I789",
+    "price": 150000,
+    "status": true,
+    "stock": 10,
+    "category": "puertas",
+    "thumbnails": "https://dummyimage.com/400x200/###/fff"
+  },
+  {
+    "id": 10,
+    "title": "Tubular 50",
+    "description": "Persianas y cortinas",
+    "code": "J123",
+    "price": 180000,
+    "status": true,
+    "stock": 10,
+    "category": "cortinas",
+    "thumbnails": "https://dummyimage.com/400x200/###/fff"
+  },
+  {
+    "id": 11,
+    "title": "Roller black out",
+    "description": "Oculta lo justo",
+    "code": "K456",
+    "price": 200000,
+    "status": true,
+    "stock": 10,
+    "category": "cortinas",
+    "thumbnails": "https://dummyimage.com/400x200/###/fff"
+  },
+  {
+    "id": 12,
+    "title": "Tubular 60",
+    "description": "Cortinas semi pesadas",
+    "code": "L789",
+    "price": 250000,
+    "status": true,
+    "stock": 10,
+    "category": "cortinas",
+    "thumbnails": "https://dummyimage.com/400x200/###/fff"
+  },
+  {
+    "id": 13,
+    "title": "Batcorr",
+    "description": "Batiente para uso pesado",
+    "code": "M123",
+    "price": 320000,
+    "status": true,
+    "stock": 10,
+    "category": "garages",
+    "thumbnails": "https://dummyimage.com/400x200/###/fff"
+  },
+  {
+    "id": 14,
+    "title": "Tokey",
+    "description": "Contactor a llave tokey",
+    "code": "N456",
+    "price": 70000,
+    "status": true,
+    "stock": 10,
+    "category": "garages",
+    "thumbnails": "https://dummyimage.com/400x200/###/fff"
+  },
+  {
+    "id": 15,
+    "title": "Cerraduras",
+    "description": "Cerraduras cromadas",
+    "code": "O789",
+    "price": 100000,
+    "status": true,
+    "stock": 10,
+    "category": "garages",
+    "thumbnails": "https://dummyimage.com/400x200/###/fff"
+  }
+]

@@ -1,0 +1,14 @@
+<h1>Detalles del producto</h1>
+
+<h2>{{product.title}}</h2>
+<p><strong>Descripción:</strong> {{product.description}}</p>
+<p><strong>Categoría:</strong> {{product.category}}</p>
+<p><strong>Precio:</strong> ${{product.price}}</p>
+<p><strong>Stock:</strong> {{product.stock}}</p>
+
+<form action="/carts/insert/{{product._id}}" method="POST">
+    <input type="number" name="quantity" value="1" min="1">
+    <button type="submit">Agregar al carrito</button>
+</form>
+
+<a href="/products">⬅ Volver a productos</a>

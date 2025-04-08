@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>{{title}}</title>
+</head>
+<body>
+
+  <!-- navegación común -->
+  <nav>
+    <a href="/products">🏠 Productos</a>
+
+    {{#if cartId}}
+      <a href="/carts/{{cartId}}">🛒 Ver mi carrito</a>
+    {{/if}}
+  </nav>
+  <hr>
+
+  <!-- renderiza cada vista -->
+  {{{body}}}
+
+</body>
+</html>

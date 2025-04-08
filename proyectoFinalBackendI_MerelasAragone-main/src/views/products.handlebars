@@ -1,0 +1,21 @@
+<h1>Productos</h1>
+
+<div>
+    {{#each products}}
+    <div style="border:1px solid #ccc; margin:10px; padding:10px;">
+        <h3>{{this.title}}</h3>
+        <p><strong>Precio:</strong> ${{this.price}}</p>
+        <p><strong>Categoría:</strong> {{this.category}}</p>
+        <a href="/products/{{this._id}}">Ver detalle</a>
+        <form action="/carts/insert/{{this._id}}" method="POST" style="display:inline;">
+        <button type="submit">Agregar al carrito</button>
+        </form>
+    </div>
+    {{/each}}
+</div>
+
+<div>
+    {{#if hasPrevPage}}<a href="?page={{prevPage}}">Anterior</a>{{/if}}
+    Página {{page}} de {{totalPages}}
+    {{#if hasNextPage}}<a href="?page={{nextPage}}">Siguiente</a>{{/if}}
+</div>
